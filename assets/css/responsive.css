@@ -1,0 +1,285 @@
+@media screen and (max-width:1500px) {
+    #titles h1 {
+        font-size:4rem;
+    }
+}
+
+/* ECRAN 720p ************************************************************************/
+
+
+@media screen and (max-width:1280px) {
+    #menu-header a {
+        padding:10px 20px;
+    }
+    
+    #titles h1 {
+        font-size:3rem;
+    }
+    
+    .labInp::after {
+        left:-25%;
+    }
+
+    .video {
+        margin-bottom: 275px;
+    }
+
+    .desc-video {
+        padding-bottom:175px;
+    }
+
+    .video video {
+        top:65%;
+    }
+    
+    .guests {
+        gap:50px;
+    }
+
+}
+
+/* TABLET PAYSAGE ************************************************************************/
+
+
+@media screen and (max-width:1024px) {
+
+    #titles {
+        padding:15% 5%;
+    }
+    #titles h1 {
+        margin:30px 0;
+    }
+    
+    .interior form {
+        width:75%;
+    }
+
+    .video {
+        margin-bottom: 225px;
+    }
+
+    #socials input:first-child {
+        width: 60%;
+    }
+    #socials input:last-child {
+        width: 40%;
+    }
+
+    #menu-socials a {
+        padding:10px;
+    }
+}
+
+/* TABLE PORTRAIT ************************************************************************/
+
+
+@media screen and (max-width:768px) {
+
+    #menu-header label {
+        display: block;
+        z-index: auto;
+        position: absolute;
+        top: 15px;
+        right: 5%;
+    }
+
+    #menu-header>ul {
+        display: none;
+    }
+
+    #menu-header .noDis {
+        display: block;
+    }
+
+    .user {
+        display: none;
+    }
+
+    #menu-header input:checked+ul {
+        display: flex;
+        position: absolute;
+        width: 100%;
+        top: 65px;
+        left: 0;
+        height: auto;
+        background: white;
+        z-index: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    #menu-header > ul li {
+        width: 100%;
+    }
+
+    #menu-header > ul li a {
+        width: 100%;
+        text-align: center;
+        padding: 30px 10%;
+        border-bottom: 1px solid var(--color-1);
+    }
+
+    #menu-header>ul li a:hover,
+    #menu-header>ul li a:active {
+        background-color: var(--color-1);
+        color:var(--l-grey);
+    }
+
+    #titles {
+        width: 75%;
+    }
+
+    .interior {
+        height:50vh;
+    }
+
+    .interior form {
+        width:100%;
+    }
+
+    .interior input[type=submit] {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .video {
+        margin-bottom: 275px;
+    }
+
+    .desc-video {
+        padding-bottom:175px;
+    }
+
+    .video video {
+        top:75%;
+        width:75%;
+    }
+
+    .guests {
+        grid-template-columns: 1fr;
+        width: 75%;
+        margin:auto;
+    }
+    
+    .guests nav {
+        display: none;
+    }
+
+    footer {
+        grid-template-columns: 1fr;
+        
+    }
+
+    footer h3 {
+        padding-top:50px;
+    }
+
+    footer h3::after {
+        top:75px;
+    }
+
+    #contact,
+    #navigation,
+    #socials {
+        width:75%;
+        margin:auto;
+    }
+
+    #socials input:first-child {
+        width: 75%;
+    }
+
+    #socials input:last-child {
+        width: 25%;
+    }
+
+    #menu-socials ul {
+        justify-content: space-between;
+    }
+
+    .cred {
+        grid-column-start: 1;
+        grid-column-end: 1;
+    }
+
+}
+
+/* SMARTPHONE ************************************************************************/
+
+@media screen and (max-width:480px) {
+    #titles {
+        width: 100%;
+    }
+
+    #titles h1 {
+        margin:25px 0;
+    }
+
+    .interior {
+        margin-bottom :280px;
+    }
+
+    .interior form {
+        border-radius: 0;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .interior .labInp {
+        width: 100%;
+        padding:15px 0;
+    }
+
+    .labInp input,
+    .labInp select {
+        width:40%;
+        margin:auto;
+    }
+
+    .interior input[type=submit] {
+        border-radius: 15px;
+        width: 50%;
+    }
+
+    .labInp::after {
+        display: none;
+    }
+
+    .infos {
+        flex-direction: column;
+        }
+
+    .infos a {
+        margin-right: 0;
+        margin-bottom: 15px;;
+    }
+
+    .desc-video {
+        padding:40px 15% 160px;
+    }
+    
+    .video {
+        margin-bottom: 200px;
+    }
+
+    .guests {
+        width: 90%;
+    }
+
+    #menu-footer ul {
+        width: 100%;
+    }
+
+    #menu-footer a {
+        padding-bottom: 40px;
+    }
+
+    #socials input:first-child {
+        width: 65%;
+    }
+
+    #socials input:last-child {
+        width: 35%;
+    }
+}
